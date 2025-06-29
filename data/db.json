@@ -1,0 +1,184 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Espresso",
+      "contents": "Rich & Strong Coffee Shot",
+      "description": "A concentrated shot of pure coffee, bold and intense.",
+      "price": 10,
+      "img": "/images/coffee-1.jpg",
+      "type": "Espresso"
+    },
+    {
+      "id": 2,
+      "name": "Americano",
+      "contents": "Espresso with Hot Water",
+      "description": "Smooth, bold, and perfect for slow sipping.",
+      "price": 9,
+      "img": "/images/coffee-2.jpg",
+      "type": "Americano"
+    },
+    {
+      "id": 3,
+      "name": "Cappuccino",
+      "contents": "Espresso with Steamed Milk & Foam",
+      "description": "Creamy milk foam with a strong espresso kick.",
+      "price": 12,
+      "img": "/images/coffee-3.jpg",
+      "type": "Cappuccino"
+    },
+    {
+      "id": 4,
+      "name": "Latte",
+      "contents": "Espresso with Steamed Milk",
+      "description": "Mild and milky with rich espresso flavor.",
+      "price": 13,
+      "img": "/images/coffee-4.jpg",
+      "type": "Espresso"
+    },
+    {
+      "id": 5,
+      "name": "Mocha",
+      "contents": "Espresso with Chocolate & Milk",
+      "description": "The perfect mix of coffee and chocolate.",
+      "price": 14,
+      "img": "/images/coffee-5.jpg",
+      "type": "Macchiato"
+    },
+    {
+      "id": 6,
+      "name": "Flat White",
+      "contents": "Espresso with Microfoam",
+      "description": "Silky smooth with balanced espresso and milk.",
+      "price": 13,
+      "img": "/images/coffee-6.jpg",
+      "type": "Cappuccino"
+    },
+    {
+      "id": 7,
+      "name": "Macchiato",
+      "contents": "Espresso with Milk Foam",
+      "description": "Strong espresso topped with a dollop of foam.",
+      "price": 11,
+      "img": "/images/coffee-7.jpg",
+      "type": "Macchiato"
+    },
+    {
+      "id": 8,
+      "name": "Cortado",
+      "contents": "Espresso with Equal Milk",
+      "description": "Perfect balance of coffee and milk.",
+      "price": 10,
+      "img": "/images/coffee-8.jpg",
+      "type": "Espresso"
+    },
+    {
+      "id": 9,
+      "name": "Iced Coffee",
+      "contents": "Brewed Coffee Over Ice",
+      "description": "Cool, refreshing and bold in flavor.",
+      "price": 9,
+      "img": "/images/coffee-9.jpg",
+      "type": "Americano"
+    },
+    {
+      "id": 10,
+      "name": "Cold Brew",
+      "contents": "Slow-steeped Coffee",
+      "description": "Smooth and less acidic cold coffee experience.",
+      "price": 12,
+      "img": "/images/coffee-10.jpg",
+      "type": "Americano"
+    },
+    {
+      "id": 11,
+      "name": "Affogato",
+      "contents": "Espresso Over Ice Cream",
+      "description": "A dessert and coffee all in one.",
+      "price": 15,
+      "img": "/images/coffee-11.jpg",
+      "type": "Espresso"
+    },
+    {
+      "id": 12,
+      "name": "Turkish Coffee",
+      "contents": "Finely Ground Coffee Boiled in Pot",
+      "description": "Traditional and rich with a foamy top.",
+      "price": 12,
+      "img": "/images/coffee-12.jpg",
+      "type": "Espresso"
+    },
+    {
+      "id": 13,
+      "name": "Irish Coffee",
+      "contents": "Coffee with Irish Whiskey & Cream",
+      "description": "Warm, boozy and creamy delight.",
+      "price": 16,
+      "img": "/images/coffee-13.jpg",
+      "type": "Americano"
+    },
+    {
+      "id": 14,
+      "name": "Vienna Coffee",
+      "contents": "Espresso with Whipped Cream",
+      "description": "Rich espresso topped with a thick layer of whipped cream.",
+      "price": 14,
+      "img": "/images/coffee-14.jpg",
+      "type": "Cappuccino"
+    },
+    {
+      "id": 15,
+      "name": "Ristretto",
+      "contents": "Shorter Shot of Espresso",
+      "description": "More concentrated, sweeter espresso taste.",
+      "price": 10,
+      "img": "/images/coffee-15.jpg",
+      "type": "Espresso"
+    },
+    {
+      "id": 16,
+      "name": "Doppio",
+      "contents": "Double Espresso Shot",
+      "description": "For those who need a stronger kick.",
+      "price": 11,
+      "img": "/images/coffee-16.jpg",
+      "type": "Espresso"
+    },
+    {
+      "id": 17,
+      "name": "Iced Latte",
+      "contents": "Espresso with Cold Milk Over Ice",
+      "description": "Light and creamy, perfect for summer.",
+      "price": 13,
+      "img": "/images/coffee-17.jpg",
+      "type": "Cappuccino"
+    },
+    {
+      "id": 18,
+      "name": "Caramel Macchiato",
+      "contents": "Espresso with Milk & Caramel Drizzle",
+      "description": "Sweet caramel flavor layered with espresso.",
+      "price": 14,
+      "img": "/images/coffee-18.jpg",
+      "type": "Macchiato"
+    },
+    {
+      "id": 19,
+      "name": "Pumpkin Spice Latte",
+      "contents": "Espresso with Pumpkin & Spices",
+      "description": "Seasonal favorite with cozy autumn vibes.",
+      "price": 15,
+      "img": "/images/coffee-19.jpg",
+      "type": "Cappuccino"
+    },
+    {
+      "id": 20,
+      "name": "Toffee Nut Latte",
+      "contents": "Espresso with Toffee & Nut Flavors",
+      "description": "A warm, nutty twist on a classic latte.",
+      "price": 15,
+      "img": "/images/coffee-20.jpg",
+      "type": "Macchiato"
+    }
+  ]
+}
