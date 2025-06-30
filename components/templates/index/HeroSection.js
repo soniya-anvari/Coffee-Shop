@@ -3,7 +3,7 @@ import React from 'react'
 function HeroSection() {
   return (
     <div>
-      <h2 className='text-3xl text-white font-bold w-1/2 '>
+      <h2 className='text-3xl text-white font-bold w-2/3 '>
         Find the best
        coffee for you
       </h2>

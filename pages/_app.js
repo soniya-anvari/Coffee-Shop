@@ -6,7 +6,9 @@ export default function App({ Component, pageProps }) {
   return(
      <div className="w-11/12 m-auto">
       <TopNavbar />
-      <Component {...pageProps} />
+      <div className="pb-[100px]">
+        <Component {...pageProps} />
+      </div>
             <Navbar />
 
      </div>
