@@ -7,7 +7,8 @@
       "description": "A concentrated shot of pure coffee, bold and intense.",
       "price": 10,
       "img": "/images/coffee-1.jpg",
-      "type": "Espresso"
+      "type": "Espresso",
+      "off":0
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "description": "Smooth, bold, and perfect for slow sipping.",
       "price": 9,
       "img": "/images/coffee-2.jpg",
-      "type": "Americano"
+      "type": "Americano",
+       "off":10
     },
     {
       "id": 3,
@@ -25,7 +27,8 @@
       "description": "Creamy milk foam with a strong espresso kick.",
       "price": 12,
       "img": "/images/coffee-3.jpg",
-      "type": "Cappuccino"
+      "type": "Cappuccino",
+        "off":3
     },
     {
       "id": 4,
@@ -34,7 +37,8 @@
       "description": "Mild and milky with rich espresso flavor.",
       "price": 13,
       "img": "/images/coffee-4.jpg",
-      "type": "Espresso"
+      "type": "Espresso",
+      "off":0
     },
     {
       "id": 5,
@@ -43,7 +47,9 @@
       "description": "The perfect mix of coffee and chocolate.",
       "price": 14,
       "img": "/images/coffee-5.jpg",
-      "type": "Macchiato"
+      "type": "Macchiato",
+            "off":2
+
     },
     {
       "id": 6,
@@ -52,7 +58,8 @@
       "description": "Silky smooth with balanced espresso and milk.",
       "price": 13,
       "img": "/images/coffee-6.jpg",
-      "type": "Cappuccino"
+      "type": "Cappuccino",
+            "off":40
     },
     {
       "id": 7,
@@ -61,7 +68,8 @@
       "description": "Strong espresso topped with a dollop of foam.",
       "price": 11,
       "img": "/images/coffee-7.jpg",
-      "type": "Macchiato"
+      "type": "Macchiato",
+            "off":6
     },
     {
       "id": 8,
@@ -70,7 +78,8 @@
       "description": "Perfect balance of coffee and milk.",
       "price": 10,
       "img": "/images/coffee-8.jpg",
-      "type": "Espresso"
+      "type": "Espresso",
+            "off":0
     },
     {
       "id": 9,
@@ -79,7 +88,9 @@
       "description": "Cool, refreshing and bold in flavor.",
       "price": 9,
       "img": "/images/coffee-9.jpg",
-      "type": "Americano"
+      "type": "Americano",
+            "off":0
+
     },
     {
       "id": 10,
@@ -88,7 +99,8 @@
       "description": "Smooth and less acidic cold coffee experience.",
       "price": 12,
       "img": "/images/coffee-10.jpg",
-      "type": "Americano"
+      "type": "Americano",
+            "off":1
     },
     {
       "id": 11,
@@ -97,7 +109,8 @@
       "description": "A dessert and coffee all in one.",
       "price": 15,
       "img": "/images/coffee-11.jpg",
-      "type": "Espresso"
+      "type": "Espresso",
+            "off":50
     },
     {
       "id": 12,
@@ -106,7 +119,8 @@
       "description": "Traditional and rich with a foamy top.",
       "price": 12,
       "img": "/images/coffee-12.jpg",
-      "type": "Espresso"
+      "type": "Espresso",
+            "off":1
     },
     {
       "id": 13,
@@ -115,7 +129,8 @@
       "description": "Warm, boozy and creamy delight.",
       "price": 16,
       "img": "/images/coffee-13.jpg",
-      "type": "Americano"
+      "type": "Americano",
+            "off":20
     },
     {
       "id": 14,
@@ -124,7 +139,8 @@
       "description": "Rich espresso topped with a thick layer of whipped cream.",
       "price": 14,
       "img": "/images/coffee-14.jpg",
-      "type": "Cappuccino"
+      "type": "Cappuccino",
+            "off":20
     },
     {
       "id": 15,
@@ -133,7 +149,8 @@
       "description": "More concentrated, sweeter espresso taste.",
       "price": 10,
       "img": "/images/coffee-15.jpg",
-      "type": "Espresso"
+      "type": "Espresso",
+            "off":10
     },
     {
       "id": 16,
@@ -142,7 +159,9 @@
       "description": "For those who need a stronger kick.",
       "price": 11,
       "img": "/images/coffee-16.jpg",
-      "type": "Espresso"
+      "type": "Espresso",
+            "off":0
+
     },
     {
       "id": 17,
@@ -151,7 +170,8 @@
       "description": "Light and creamy, perfect for summer.",
       "price": 13,
       "img": "/images/coffee-17.jpg",
-      "type": "Cappuccino"
+      "type": "Cappuccino",
+            "off":3
     },
     {
       "id": 18,
@@ -160,7 +180,8 @@
       "description": "Sweet caramel flavor layered with espresso.",
       "price": 14,
       "img": "/images/coffee-18.jpg",
-      "type": "Macchiato"
+      "type": "Macchiato",
+            "off":1
     },
     {
       "id": 19,
@@ -169,7 +190,8 @@
       "description": "Seasonal favorite with cozy autumn vibes.",
       "price": 15,
       "img": "/images/coffee-19.jpg",
-      "type": "Cappuccino"
+      "type": "Cappuccino",
+            "off":10
     },
     {
       "id": 20,
@@ -178,7 +200,8 @@
       "description": "A warm, nutty twist on a classic latte.",
       "price": 15,
       "img": "/images/coffee-20.jpg",
-      "type": "Macchiato"
+      "type": "Macchiato",
+            "off":1
     }
   ]
 }
