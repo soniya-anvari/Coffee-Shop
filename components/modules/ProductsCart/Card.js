@@ -4,10 +4,10 @@ function Card({item}) {
   return (
     <div className='text-white bg-gradient-to-t from-[#14181d] via-[#262B33] to-[#262B33] p-4 rounded-2xl'>
        <img src={item.img} className='w-[126px] h-[150px] rounded-3xl' />
-            <p className='text-xl mt-4'>
+            <p className='text-[13px] mt-4'>
                 {item.name}
             </p>
-            <p className='mt-2 text-[12px]'>
+            <p className='mt-2 text-[9px]'>
                 {item.contents.split(' ').slice(0,3).join(' ')}
             </p>
             <div className='mt-3 flex justify-between items-center'>
