@@ -203,5 +203,117 @@
       "type": "Macchiato",
             "off":1
     }
+  ],
+  "CoffeeBeans": [
+    {
+      "id": 1,
+      "name": "Ethiopian Yirgacheffe",
+      "origin": "Ethiopia",
+      "roast": "Light Roast",
+      "flavorNotes": "Floral, Citrus, Tea-like",
+      "price": 18,
+      "weight": "250g",
+      "img": "/images/beans-1.jpg",
+      "off": 5
+    },
+    {
+      "id": 2,
+      "name": "Colombian Supremo",
+      "origin": "Colombia",
+      "roast": "Medium Roast",
+      "flavorNotes": "Nutty, Chocolate, Smooth",
+      "price": 16,
+      "weight": "250g",
+      "img": "/images/beans-2.jpg",
+      "off": 10
+    },
+    {
+      "id": 3,
+      "name": "Guatemalan Antigua",
+      "origin": "Guatemala",
+      "roast": "Medium-Dark Roast",
+      "flavorNotes": "Spice, Cocoa, Caramel",
+      "price": 17,
+      "weight": "250g",
+      "img": "/images/beans-3.jpg",
+      "off": 0
+    },
+    {
+      "id": 4,
+      "name": "Kenya AA",
+      "origin": "Kenya",
+      "roast": "Light-Medium Roast",
+      "flavorNotes": "Berry, Winey, Bright Acidity",
+      "price": 19,
+      "weight": "250g",
+      "img": "/images/beans-4.jpg",
+      "off": 15
+    },
+    {
+      "id": 5,
+      "name": "Sumatra Mandheling",
+      "origin": "Indonesia",
+      "roast": "Dark Roast",
+      "flavorNotes": "Earthy, Herbal, Low Acidity",
+      "price": 18,
+      "weight": "250g",
+      "img": "/images/beans-5.jpg",
+      "off": 0
+    },
+    {
+      "id": 6,
+      "name": "Brazil Santos",
+      "origin": "Brazil",
+      "roast": "Medium Roast",
+      "flavorNotes": "Sweet, Nutty, Chocolatey",
+      "price": 15,
+      "weight": "250g",
+      "img": "/images/beans-6.jpg",
+      "off": 5
+    },
+    {
+      "id": 7,
+      "name": "Honduras Marcala",
+      "origin": "Honduras",
+      "roast": "Medium Roast",
+      "flavorNotes": "Balanced, Fruity, Smooth",
+      "price": 16,
+      "weight": "250g",
+      "img": "/images/beans-7.jpg",
+      "off": 0
+    },
+    {
+      "id": 8,
+      "name": "Costa Rica Tarrazú",
+      "origin": "Costa Rica",
+      "roast": "Light Roast",
+      "flavorNotes": "Bright, Citrus, Clean Finish",
+      "price": 17,
+      "weight": "250g",
+      "img": "/images/beans-8.jpg",
+      "off": 10
+    },
+    {
+      "id": 9,
+      "name": "Tanzania Peaberry",
+      "origin": "Tanzania",
+      "roast": "Medium Roast",
+      "flavorNotes": "Winey, Rich, Fruity",
+      "price": 19,
+      "weight": "250g",
+      "img": "/images/beans-9.jpg",
+      "off": 8
+    },
+    {
+      "id": 10,
+      "name": "House Blend",
+      "origin": "Multi-origin",
+      "roast": "Medium-Dark Roast",
+      "flavorNotes": "Balanced, Cocoa, Nutty",
+      "price": 14,
+      "weight": "250g",
+      "img": "/images/beans-9.jpg",
+      "off": 12
+    }
   ]
 }
