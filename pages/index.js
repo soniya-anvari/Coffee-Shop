@@ -1,16 +1,18 @@
 import CoffeeBeans from '@/components/templates/index/CoffeeBeans';
 import HeroSection from '@/components/templates/index/HeroSection'
 import Menu from '@/components/templates/index/Menu'
+import axios from 'axios';
 import { consumeDynamicAccess } from 'next/dist/server/app-render/dynamic-rendering';
-import React from 'react'
+import React, { useState } from 'react'
 
 function Home({menuItems,coffeeBeans}) {
-  
+ 
   return (
     <div>
       <HeroSection />
       <Menu menuItems={menuItems} />
       <CoffeeBeans coffeeBeans={coffeeBeans}/>
+      
       
     </div>
   )
