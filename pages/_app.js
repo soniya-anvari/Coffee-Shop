@@ -4,8 +4,8 @@ import "@/styles/globals.css";
 
 export default function App({ Component, pageProps }) {
   return(
-     <div className="w-11/12 m-auto">
-      <TopNavbar />
+     <div>
+      {Component.name !=='About' &&<TopNavbar /> }
       <div className="pb-[100px]">
         <Component {...pageProps} />
       </div>

@@ -8,7 +8,7 @@ import React, { useState } from 'react'
 function Home({menuItems,coffeeBeans}) {
  
   return (
-    <div>
+    <div className="w-11/12 m-auto">
       <HeroSection />
       <Menu menuItems={menuItems} />
       <CoffeeBeans coffeeBeans={coffeeBeans}/>
