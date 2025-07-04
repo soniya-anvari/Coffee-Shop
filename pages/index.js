@@ -12,14 +12,12 @@ function Home({menuItems,coffeeBeans}) {
       <HeroSection />
       <Menu menuItems={menuItems} />
       <CoffeeBeans coffeeBeans={coffeeBeans}/>
-      
-      
     </div>
   )
 }
 export async function getStaticProps(){
-  const menuRes=await fetch('http://localhost:4000/menu');
-  const coffeeBeansRes=await fetch('http://localhost:4000/CoffeeBeans');
+  const menuRes=await fetch('http://localhost:4000/drink');
+  const coffeeBeansRes=await fetch('http://localhost:4000/coffeeBeans');
   const coffe=await coffeeBeansRes.json()
   const menu=await menuRes.json();
 

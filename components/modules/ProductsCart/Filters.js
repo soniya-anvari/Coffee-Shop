@@ -18,7 +18,7 @@ const categories = [
     <Swiper
       slidesPerView="auto"
       spaceBetween={26}
-      className="mt-10"
+      
     >
       {categories.map((category, index) => (
         <SwiperSlide

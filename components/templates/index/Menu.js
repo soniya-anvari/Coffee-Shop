@@ -7,10 +7,16 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import Card from '@/components/modules/ProductsCart/Card';
 import Filters from '@/components/modules/ProductsCart/Filters';
+import Link from 'next/link';
 function Menu({menuItems}) {
-    console.log(menuItems)
   return (
     <div>
+      <div className='mb-5 mt-10 flex justify-between items-center'>
+        <p className='text-white text-xl font-bold'>Drink menu</p>
+        <Link href="/menu/drink" className='text-blue-400  '>
+          See All
+        </Link>
+      </div>
         <Filters />
     <Swiper
         slidesPerView={2.3}

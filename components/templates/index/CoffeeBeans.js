@@ -4,12 +4,17 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import Card from '@/components/modules/ProductsCart/Card';
 import Filters from '@/components/modules/ProductsCart/Filters';
+import Link from 'next/link';
 function CoffeeBeans({coffeeBeans}) {
   return (
     <div className='mt-5'>
-      <h3 className='text-white text-md'>
-        Coffee beans
-      </h3>
+      <div className='mb-5 mt-10 flex justify-between items-center'>
+        <p className='text-white text-xl font-bold'>Coffee beans menu</p>
+        <Link href="/menu/coffeeBeans" className='text-blue-400'>
+          See All
+        </Link>
+      </div>
+      
     <Swiper
         slidesPerView={2.3}
         spaceBetween={10}

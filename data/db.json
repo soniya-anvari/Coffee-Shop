@@ -1,5 +1,5 @@
 {
-  "menu": [
+  "drink": [
     {
       "id": 1,
       "name": "Espresso",
@@ -201,7 +201,7 @@
       "off": 1
     }
   ],
-  "CoffeeBeans": [
+  "coffeeBeans": [
     {
       "id": 1,
       "name": "Ethiopian Yirgacheffe",
