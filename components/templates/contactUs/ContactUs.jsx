@@ -1,5 +1,6 @@
 import React from 'react';
 import { useFormik } from 'formik';
+import axios from 'axios';
 
 const validate = values => {
   const errors = {};
@@ -18,6 +19,10 @@ const validate = values => {
   if (!values.email) {
     errors.email = 'Required';
   } 
+  
+  if (!values.message) {
+    errors.message = 'Required';
+  } 
 
   return errors;
 };
@@ -25,19 +30,32 @@ const validate = values => {
 const ContactUs = () => {
   
   const formik = useFormik({
-    initialValues: {
-      firstName: '',
-      lastName: '',
-      email: '',
-    },
-    validate,
-    onSubmit: values => {
-      submitHandler(values)
-    },
-  });
-  const submitHandler=()=>{
-    
+  initialValues: {
+    firstName: '',
+    lastName: '',
+    email: '',
+    message: ''
+  },
+  validate,
+  onSubmit: async (values, { resetForm }) => {
+    try {
+      const res = await axios.post('http://localhost:4000/contactMessages', { values });
+      console.log(res);
+      resetForm({
+  values: {
+    firstName: '',
+    lastName: '',
+    email: '',
+    message: ''
   }
+});
+    } catch (err) {
+      console.log('error');
+    }
+  }
+});
+
+  
   return (
     <div className='backdrop-blur-lg bg-[url(/images/contact.jpg)] h-[100vh] bg-contain'>
 
@@ -78,6 +96,18 @@ const ContactUs = () => {
       />
       {formik.errors.email ? <div className='text-red-400 text-[12px] mt-1'>{formik.errors.email}</div> : null}
       </div> 
+        <div> <label htmlFor="message" className='text-white'>Message</label>
+      <textarea
+        id="message"
+        name="message"
+        type="text"
+        className='border border-gray-400 outline-none mt-1 text-white bg-none p-4 rounded-xl w-full'
+
+        onChange={formik.handleChange}
+        value={formik.values.message}
+      ></textarea>
+      {formik.errors.message ? <div className='text-red-400 text-[12px] mt-1'>{formik.errors.message}</div> : null}
+      </div>
       <button className='bg-[var(--orange-accent)]  p-4 rounded-xl w-full py-4 text-white' type="submit">Submit</button>
     </form>
     </div>
