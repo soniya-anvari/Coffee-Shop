@@ -1,6 +1,7 @@
 import React from 'react';
 import { useFormik } from 'formik';
 import axios from 'axios';
+import { toast } from 'sonner';
 
 const validate = values => {
   const errors = {};
@@ -42,15 +43,17 @@ const ContactUs = () => {
       const res = await axios.post('http://localhost:4000/contactMessages', { values });
       console.log(res);
       resetForm({
-  values: {
-    firstName: '',
-    lastName: '',
-    email: '',
-    message: ''
-  }
-});
+        values: {
+            firstName: '',
+            lastName: '',
+            email: '',
+            message: ''
+        }
+        });
+
+   toast.success('Your message has been sent.');
     } catch (err) {
-      console.log('error');
+      console.log(err);
     }
   }
 });

@@ -1,6 +1,7 @@
 import Navbar from "@/components/modules/Navbar/Navbar";
 import TopNavbar from "@/components/modules/Navbar/TopNavbar";
 import "@/styles/globals.css";
+import { Toaster } from "sonner";
 
 export default function App({ Component, pageProps }) {
   return(
@@ -10,7 +11,7 @@ export default function App({ Component, pageProps }) {
         <Component {...pageProps} />
       </div>
             <Navbar />
-
+    <Toaster position="top-center" />
      </div>
   )
 }
