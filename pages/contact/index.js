@@ -1,11 +1,12 @@
+import ContactUs from '@/components/templates/contactUs/ContactUs'
 import React from 'react'
 
-function ContactUs() {
+function index() {
   return (
     <div>
-      
+      <ContactUs />
     </div>
   )
 }
 
-export default ContactUs;
+export default index
