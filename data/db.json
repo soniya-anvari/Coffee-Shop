@@ -1,348 +1,151 @@
 {
-  "products":[
+ 
+  "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Espresso",
       "contents": "Rich & Strong Coffee Shot",
-      "description": "A concentrated shot of pure coffee, bold and intense.",
+      "description": "Pure coffee essence in a single shot. Bold, rich, and full-bodied flavor. Perfect for a quick energy boost. Classic choice for coffee lovers.",
       "price": 10,
       "img": "/images/coffee-1.jpg",
       "type": "Espresso",
       "off": 0,
-      "rate":4
+      "rate": 4
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Americano",
       "contents": "Espresso with Hot Water",
-      "description": "Smooth, bold, and perfect for slow sipping.",
+      "description": "Smooth espresso diluted with hot water. Lighter in texture but rich in taste. Ideal for slow sipping and long talks. A bold yet balanced cup.",
       "price": 9,
       "img": "/images/coffee-2.jpg",
       "type": "Americano",
       "off": 10,
-      "rate":3.7
+      "rate": 3.7
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Cappuccino",
       "contents": "Espresso with Steamed Milk & Foam",
-      "description": "Creamy milk foam with a strong espresso kick.",
+      "description": "A creamy mix of milk and espresso. Thick foam crowns the rich base. Velvety texture and deep aroma. Perfect for cozy mornings.",
       "price": 12,
       "img": "/images/coffee-3.jpg",
       "type": "Cappuccino",
       "off": 3,
-      "rate":3.4
+      "rate": 3.4
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Latte",
       "contents": "Espresso with Steamed Milk",
-      "description": "Mild and milky with rich espresso flavor.",
+      "description": "Smooth and milky with espresso core. Gentle flavors ideal for any time. A classic café favorite worldwide. Soft, creamy, and satisfying.",
       "price": 13,
       "img": "/images/coffee-4.jpg",
       "type": "Espresso",
       "off": 0,
-      "rate":4.5
+      "rate": 4.5
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Mocha",
       "contents": "Espresso with Chocolate & Milk",
-      "description": "The perfect mix of coffee and chocolate.",
+      "description": "A blend of coffee and rich chocolate. Sweet, bold, and deeply satisfying. Great for dessert or a cozy night. Chocolate lovers’ delight.",
       "price": 14,
       "img": "/images/coffee-5.jpg",
       "type": "Macchiato",
       "off": 2,
-      "rate":5
+      "rate": 5
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Flat White",
       "contents": "Espresso with Microfoam",
-      "description": "Silky smooth with balanced espresso and milk.",
+      "description": "Creamy milk with a silky finish. Balanced blend of milk and coffee. Subtle, strong, and smooth in one. A refined coffee experience.",
       "price": 13,
       "img": "/images/coffee-6.jpg",
       "type": "Cappuccino",
       "off": 40,
-      "rate":4.9
+      "rate": 4.9
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Macchiato",
       "contents": "Espresso with Milk Foam",
-      "description": "Strong espresso topped with a dollop of foam.",
+      "description": "Espresso topped with a milk kiss. Bold coffee with light foam touch. Strong taste, minimalist style. Ideal for espresso fans.",
       "price": 11,
       "img": "/images/coffee-7.jpg",
       "type": "Macchiato",
       "off": 6,
-      "rate":4.8
+      "rate": 4.8
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Cortado",
       "contents": "Espresso with Equal Milk",
-      "description": "Perfect balance of coffee and milk.",
+      "description": "Perfect harmony of coffee and milk. Equal parts power and smoothness. Creamy without being too heavy. A balanced classic.",
       "price": 10,
       "img": "/images/coffee-8.jpg",
       "type": "Espresso",
       "off": 0,
-      "rate":4.5
+      "rate": 4.5
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Iced Coffee",
       "contents": "Brewed Coffee Over Ice",
-      "description": "Cool, refreshing and bold in flavor.",
+      "description": "Chilled and bold, never watered down. A refreshing caffeine kick. Perfect for hot days and cool vibes. Simple and energizing.",
       "price": 9,
       "img": "/images/coffee-9.jpg",
       "type": "Americano",
       "off": 0,
-      "rate":4.4
+      "rate": 4.4
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Cold Brew",
       "contents": "Slow-steeped Coffee",
-      "description": "Smooth and less acidic cold coffee experience.",
+      "description": "Brewed slowly for a smooth taste. Less acidic, more refreshing. Naturally sweet and bold. Coffee in its chillest form.",
       "price": 12,
       "img": "/images/coffee-10.jpg",
       "type": "Americano",
       "off": 1,
-      "rate":4.3
+      "rate": 4.3
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Affogato",
       "contents": "Espresso Over Ice Cream",
-      "description": "A dessert and coffee all in one.",
+      "description": "Hot espresso meets cold dessert. Creamy, bold, and decadent. A dessert-coffee fusion dream. Sweet and powerful treat.",
       "price": 15,
       "img": "/images/coffee-11.jpg",
       "type": "Espresso",
       "off": 50,
-      "rate":1
+      "rate": 1
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Turkish Coffee",
       "contents": "Finely Ground Coffee Boiled in Pot",
-      "description": "Traditional and rich with a foamy top.",
+      "description": "Traditional and deeply aromatic. Foamy, strong, and thick-bodied. Served unfiltered for full flavor. A rich cultural experience.",
       "price": 12,
       "img": "/images/coffee-12.jpg",
       "type": "Espresso",
       "off": 1,
-      "rate":5
+      "rate": 5
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Irish Coffee",
       "contents": "Coffee with Irish Whiskey & Cream",
-      "description": "Warm, boozy and creamy delight.",
+      "description": "Warm coffee with a whiskey twist. Creamy top and bold bottom. Great for evening indulgence. Comfort in a cup.",
       "price": 16,
       "img": "/images/coffee-13.jpg",
       "type": "Americano",
       "off": 20,
-      "rate":3.6
-    },
-    {
-      "id": 14,
-      "name": "Vienna Coffee",
-      "contents": "Espresso with Whipped Cream",
-      "description": "Rich espresso topped with a thick layer of whipped cream.",
-      "price": 14,
-      "img": "/images/coffee-14.jpg",
-      "type": "Cappuccino",
-      "off": 20,
-      "rate":3.9
-    },
-    {
-      "id": 15,
-      "name": "Ristretto",
-      "contents": "Shorter Shot of Espresso",
-      "description": "More concentrated, sweeter espresso taste.",
-      "price": 10,
-      "img": "/images/coffee-15.jpg",
-      "type": "Espresso",
-      "off": 10,
-      "rate":3
-    },
-    {
-      "id": 16,
-      "name": "Doppio",
-      "contents": "Double Espresso Shot",
-      "description": "For those who need a stronger kick.",
-      "price": 11,
-      "img": "/images/coffee-16.jpg",
-      "type": "Espresso",
-      "off": 0,
-      "rate":1.3
-    },
-    {
-      "id": 17,
-      "name": "Iced Latte",
-      "contents": "Espresso with Cold Milk Over Ice",
-      "description": "Light and creamy, perfect for summer.",
-      "price": 13,
-      "img": "/images/coffee-17.jpg",
-      "type": "Cappuccino",
-      "off": 3,
-      "rate":4.3
-    },
-    {
-      "id": 18,
-      "name": "Caramel Macchiato",
-      "contents": "Espresso with Milk & Caramel Drizzle",
-      "description": "Sweet caramel flavor layered with espresso.",
-      "price": 14,
-      "img": "/images/coffee-18.jpg",
-      "type": "Macchiato",
-      "off": 1,
-      "rate":2.5
-    },
-    {
-      "id": 19,
-      "name": "Pumpkin Spice Latte",
-      "contents": "Espresso with Pumpkin & Spices",
-      "description": "Seasonal favorite with cozy autumn vibes.",
-      "price": 15,
-      "img": "/images/coffee-19.jpg",
-      "type": "Cappuccino",
-      "off": 10,
-      "rate":5
-    },
-    {
-      "id": 20,
-      "name": "Toffee Nut Latte",
-      "contents": "Espresso with Toffee & Nut Flavors",
-      "description": "A warm, nutty twist on a classic latte.",
-      "price": 15,
-      "img": "/images/coffee-20.jpg",
-      "type": "Macchiato",
-      "off": 1,
-      "rate":3.5
+      "rate": 3.6
     }
-  ,
-    {
-      "id": 21,
-      "name": "Ethiopian Yirgacheffe",
-      "origin": "Ethiopia",
-      "roast": "Light Roast",
-      "contents": "Floral, Citrus, Tea-like",
-      "price": 18,
-      "weight": "250g",
-      "img": "/images/beans-1.jpg",
-      "off": 5,
-      "rate":4.3
-    },
-    {
-      "id": 22,
-      "name": "Colombian Supremo",
-      "origin": "Colombia",
-      "roast": "Medium Roast",
-      "contents": "Nutty, Chocolate, Smooth",
-      "price": 16,
-      "weight": "250g",
-      "img": "/images/beans-2.jpg",
-      "off": 10,
-      "rate":4.1
-    },
-    {
-      "id": 23,
-      "name": "Guatemalan Antigua",
-      "origin": "Guatemala",
-      "roast": "Medium-Dark Roast",
-      "contents": "Spice, Cocoa, Caramel",
-      "price": 17,
-      "weight": "250g",
-      "img": "/images/beans-3.jpg",
-      "off": 0,
-      "rate":4
-    },
-    {
-      "id": 24,
-      "name": "Kenya AA",
-      "origin": "Kenya",
-      "roast": "Light-Medium Roast",
-      "contents": "Berry, Winey, Bright Acidity",
-      "price": 19,
-      "weight": "250g",
-      "img": "/images/beans-4.jpg",
-      "off": 15,
-      "rate":3
-    },
-    {
-      "id": 25,
-      "name": "Sumatra Mandheling",
-      "origin": "Indonesia",
-      "roast": "Dark Roast",
-      "contents": "Earthy, Herbal, Low Acidity",
-      "price": 18,
-      "weight": "250g",
-      "img": "/images/beans-5.jpg",
-      "off": 0,
-      "rate":2
-    },
-    {
-      "id": 26,
-      "name": "Brazil Santos",
-      "origin": "Brazil",
-      "roast": "Medium Roast",
-      "contents": "Sweet, Nutty, Chocolatey",
-      "price": 15,
-      "weight": "250g",
-      "img": "/images/beans-6.jpg",
-      "off": 5,
-      "rate":1
-    },
-    {
-      "id": 27,
-      "name": "Honduras Marcala",
-      "origin": "Honduras",
-      "roast": "Medium Roast",
-      "contents": "Balanced, Fruity, Smooth",
-      "price": 16,
-      "weight": "250g",
-      "img": "/images/beans-7.jpg",
-      "off": 0,
-      "rate":5
-    },
-    {
-      "id": 28,
-      "name": "Costa Rica Tarrazú",
-      "origin": "Costa Rica",
-      "roast": "Light Roast",
-      "contents": "Bright, Citrus, Clean Finish",
-      "price": 17,
-      "weight": "250g",
-      "img": "/images/beans-8.jpg",
-      "off": 10,
-      "rate":3.4
-    },
-    {
-      "id": 29,
-      "name": "Tanzania Peaberry",
-      "origin": "Tanzania",
-      "roast": "Medium Roast",
-      "contents": "Winey, Rich, Fruity",
-      "price": 19,
-      "weight": "250g",
-      "img": "/images/beans-9.jpg",
-      "off": 8,
-      "rate":1.7
-    },
-    {
-      "id": 30,
-      "name": "House Blend",
-      "origin": "Multi-origin",
-      "roast": "Medium-Dark Roast",
-      "contents": "Balanced, Cocoa, Nutty",
-      "price": 14,
-      "weight": "250g",
-      "img": "/images/beans-9.jpg",
-      "off": 12,
-      "rate":5
-    }
-
-  ],
+  ]
+,
   "drink": [
     {
       "id": 1,
