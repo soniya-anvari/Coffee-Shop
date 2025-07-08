@@ -1,8 +1,9 @@
+import Link from 'next/link';
 import React from 'react';
 
 function Card({ item }) {
   return (
-    <div className="text-white bg-gradient-to-t from-[#14181d] via-[#262B33] to-[#262B33] p-4 rounded-2xl">
+    <Link href={`/product/${item.id}`} className="text-white flex flex-col bg-gradient-to-t from-[#14181d] via-[#262B33] to-[#262B33] p-4 rounded-2xl">
       <img
         src={item.img}
         className="w-full h-[180px] object-cover rounded-3xl"
@@ -42,7 +43,7 @@ function Card({ item }) {
           </svg>
         </span>
       </div>
-    </div>
+    </Link>
   );
 }
 

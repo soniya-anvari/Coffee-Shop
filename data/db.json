@@ -8,7 +8,8 @@
       "price": 10,
       "img": "/images/coffee-1.jpg",
       "type": "Espresso",
-      "off": 0
+      "off": 0,
+      "rate":4
     },
     {
       "id": 2,
@@ -18,7 +19,8 @@
       "price": 9,
       "img": "/images/coffee-2.jpg",
       "type": "Americano",
-      "off": 10
+      "off": 10,
+      "rate":3.7
     },
     {
       "id": 3,
@@ -28,7 +30,8 @@
       "price": 12,
       "img": "/images/coffee-3.jpg",
       "type": "Cappuccino",
-      "off": 3
+      "off": 3,
+      "rate":3.4
     },
     {
       "id": 4,
@@ -38,7 +41,8 @@
       "price": 13,
       "img": "/images/coffee-4.jpg",
       "type": "Espresso",
-      "off": 0
+      "off": 0,
+      "rate":4.5
     },
     {
       "id": 5,
@@ -48,7 +52,8 @@
       "price": 14,
       "img": "/images/coffee-5.jpg",
       "type": "Macchiato",
-      "off": 2
+      "off": 2,
+      "rate":5
     },
     {
       "id": 6,
@@ -58,7 +63,8 @@
       "price": 13,
       "img": "/images/coffee-6.jpg",
       "type": "Cappuccino",
-      "off": 40
+      "off": 40,
+      "rate":4.9
     },
     {
       "id": 7,
@@ -68,7 +74,8 @@
       "price": 11,
       "img": "/images/coffee-7.jpg",
       "type": "Macchiato",
-      "off": 6
+      "off": 6,
+      "rate":4.8
     },
     {
       "id": 8,
@@ -78,7 +85,8 @@
       "price": 10,
       "img": "/images/coffee-8.jpg",
       "type": "Espresso",
-      "off": 0
+      "off": 0,
+      "rate":4.5
     },
     {
       "id": 9,
@@ -88,7 +96,8 @@
       "price": 9,
       "img": "/images/coffee-9.jpg",
       "type": "Americano",
-      "off": 0
+      "off": 0,
+      "rate":4.4
     },
     {
       "id": 10,
@@ -98,7 +107,8 @@
       "price": 12,
       "img": "/images/coffee-10.jpg",
       "type": "Americano",
-      "off": 1
+      "off": 1,
+      "rate":4.3
     },
     {
       "id": 11,
@@ -108,7 +118,8 @@
       "price": 15,
       "img": "/images/coffee-11.jpg",
       "type": "Espresso",
-      "off": 50
+      "off": 50,
+      "rate":1
     },
     {
       "id": 12,
@@ -118,7 +129,8 @@
       "price": 12,
       "img": "/images/coffee-12.jpg",
       "type": "Espresso",
-      "off": 1
+      "off": 1,
+      "rate":5
     },
     {
       "id": 13,
@@ -128,7 +140,8 @@
       "price": 16,
       "img": "/images/coffee-13.jpg",
       "type": "Americano",
-      "off": 20
+      "off": 20,
+      "rate":3.6
     },
     {
       "id": 14,
@@ -138,7 +151,8 @@
       "price": 14,
       "img": "/images/coffee-14.jpg",
       "type": "Cappuccino",
-      "off": 20
+      "off": 20,
+      "rate":3.9
     },
     {
       "id": 15,
@@ -148,7 +162,8 @@
       "price": 10,
       "img": "/images/coffee-15.jpg",
       "type": "Espresso",
-      "off": 10
+      "off": 10,
+      "rate":3
     },
     {
       "id": 16,
@@ -158,7 +173,8 @@
       "price": 11,
       "img": "/images/coffee-16.jpg",
       "type": "Espresso",
-      "off": 0
+      "off": 0,
+      "rate":1.3
     },
     {
       "id": 17,
@@ -168,7 +184,8 @@
       "price": 13,
       "img": "/images/coffee-17.jpg",
       "type": "Cappuccino",
-      "off": 3
+      "off": 3,
+      "rate":4.3
     },
     {
       "id": 18,
@@ -178,7 +195,8 @@
       "price": 14,
       "img": "/images/coffee-18.jpg",
       "type": "Macchiato",
-      "off": 1
+      "off": 1,
+      "rate":2.5
     },
     {
       "id": 19,
@@ -188,7 +206,8 @@
       "price": 15,
       "img": "/images/coffee-19.jpg",
       "type": "Cappuccino",
-      "off": 10
+      "off": 10,
+      "rate":5
     },
     {
       "id": 20,
@@ -198,7 +217,8 @@
       "price": 15,
       "img": "/images/coffee-20.jpg",
       "type": "Macchiato",
-      "off": 1
+      "off": 1,
+      "rate":3.5
     }
   ,
     {
@@ -210,7 +230,8 @@
       "price": 18,
       "weight": "250g",
       "img": "/images/beans-1.jpg",
-      "off": 5
+      "off": 5,
+      "rate":4.3
     },
     {
       "id": 22,
@@ -221,7 +242,8 @@
       "price": 16,
       "weight": "250g",
       "img": "/images/beans-2.jpg",
-      "off": 10
+      "off": 10,
+      "rate":4.1
     },
     {
       "id": 23,
@@ -232,7 +254,8 @@
       "price": 17,
       "weight": "250g",
       "img": "/images/beans-3.jpg",
-      "off": 0
+      "off": 0,
+      "rate":4
     },
     {
       "id": 24,
@@ -243,7 +266,8 @@
       "price": 19,
       "weight": "250g",
       "img": "/images/beans-4.jpg",
-      "off": 15
+      "off": 15,
+      "rate":3
     },
     {
       "id": 25,
@@ -254,7 +278,8 @@
       "price": 18,
       "weight": "250g",
       "img": "/images/beans-5.jpg",
-      "off": 0
+      "off": 0,
+      "rate":2
     },
     {
       "id": 26,
@@ -265,7 +290,8 @@
       "price": 15,
       "weight": "250g",
       "img": "/images/beans-6.jpg",
-      "off": 5
+      "off": 5,
+      "rate":1
     },
     {
       "id": 27,
@@ -276,7 +302,8 @@
       "price": 16,
       "weight": "250g",
       "img": "/images/beans-7.jpg",
-      "off": 0
+      "off": 0,
+      "rate":5
     },
     {
       "id": 28,
@@ -287,7 +314,8 @@
       "price": 17,
       "weight": "250g",
       "img": "/images/beans-8.jpg",
-      "off": 10
+      "off": 10,
+      "rate":3.4
     },
     {
       "id": 29,
@@ -298,7 +326,8 @@
       "price": 19,
       "weight": "250g",
       "img": "/images/beans-9.jpg",
-      "off": 8
+      "off": 8,
+      "rate":1.7
     },
     {
       "id": 30,
@@ -309,7 +338,8 @@
       "price": 14,
       "weight": "250g",
       "img": "/images/beans-9.jpg",
-      "off": 12
+      "off": 12,
+      "rate":5
     }
 
   ],
